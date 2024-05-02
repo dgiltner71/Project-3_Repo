@@ -1,0 +1,19 @@
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+<script src="path/to/maps.js"></script>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Marker</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <gmp-map center="40.00856399536133,-75.2975845336914" zoom="14" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="40.00856399536133,-75.2975845336914" title="My location"></gmp-advanced-marker>
+    </gmp-map>
+  </body>
+</html>
